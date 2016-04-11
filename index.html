@@ -1,0 +1,80 @@
+
+{% extends "bootstrap/base.html" %}
+<meta charset="UTF-8">
+    {% block title %}Ansible_Web{% endblock %}
+
+
+
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand active" href="#">Home</a>
+    </div>
+    <div>
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Windowws导航<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"></a> 主机管理</li>
+                    <li><a href="#"></a> 应用管理</li>
+                    <li class="divider"></li>
+                    <li><a href="#"></a> 磁盘管理</li>
+                    <li class="divider"></li>
+                    <li><a href="#"></a> 计划任务</li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Linux导航<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"></a> 主机管理</li>
+                    <li><a href="#"></a> 应用管理</li>
+                    <li class="divider"></li>
+                    <li><a href="#"></a> 磁盘管理</li>
+                    <li class="divider"></li>
+                    <li><a href="#"></a> 计划任务</li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    监控中心导航<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">主监控数据展示</a> </li>
+                    <li><a href="#"></a> 服务端配置管理</li>
+                    <li class="divider"></li>
+                    <li><a href="#">Agent端配置管理</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#"></a> </li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    后台管理导航<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"></a> </li>
+                    <li><a href="#"></a> 主机组管理</li>
+                    <li class="divider"></li>
+                    <li><a href="#"></a> playbook管理</li>
+                    <li class="divider"></li>
+                    <li><a href="#"></a> 脚本管理</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+{% block content %}
+{% endblock %}
